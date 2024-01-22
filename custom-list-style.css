@@ -1,0 +1,15 @@
+.list-block {
+  list-style: none; /* Remove the default list style */
+  padding-left: 20px; /* Add some left padding for better spacing */
+}
+
+/* Use an image as the custom bullet point */
+.list-block li {
+  background-image: url('data:image/svg+xml,%3Csvg%20clip-rule%3D%22evenodd%22%20fill-rule%3D%22evenodd%22%20stroke-linejoin%3D%22round%22%20stroke-miterlimit%3D%222%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23104887%22%3E%3Cpath%20d%3D%22m11.998%202.005c5.517%200%209.997%204.48%209.997%209.997%200%205.518-4.48%209.998-9.997%209.998-5.518%200-9.998-4.48-9.998-9.998%200-5.517%204.48-9.997%209.998-9.997zm-5.049%2010.386%203.851%203.43c.142.128.321.19.499.19.202%200%20.405-.081.552-.242l5.953-6.509c.131-.143.196-.323.196-.502%200-.41-.331-.747-.748-.747-.204%200-.405.082-.554.243l-5.453%205.962-3.298-2.938c-.144-.127-.321-.19-.499-.19-.415%200-.748.335-.748.746%200%20.205.084.409.249.557z%22%20fill-rule%3D%22nonzero%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E'); /* Replace with your encoded SVG data */
+  background-size: 16px 16px; /* Adjust the size of the image */
+  background-repeat: no-repeat;
+  background-position: 0 50%; /* Adjust the horizontal position if needed */
+  list-style: none;
+  padding-left: 25px; /* Add padding to create space for the custom bullet */
+  margin-bottom: 8px; /* Adjust the bottom margin for spacing between list items */
+}
